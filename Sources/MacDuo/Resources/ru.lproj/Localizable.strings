@@ -1,0 +1,43 @@
+// Modified for bluuur 2.0.7: product name in the permission message.
+// Russian translations for the bluuur fork.
+"Lid angle" = "Угол крышки";
+"This Mac has no lid angle sensor. Only some MacBook models have one." = "На этом Mac не найден датчик угла крышки. Он есть только на некоторых MacBook.";
+"Depth effect" = "3D-эффект";
+"Leans the screen away as the lid closes." = "Экран уходит в глубину при закрытии крышки.";
+"Live rendering" = "Живое изображение";
+"Off holds the frame from when the effect started." = "Если выключить, останется снимок начала эффекта.";
+"Start" = "Начало";
+"Timeout" = "Отключать в покое";
+"Ends the effect once the angle stops changing." = "Снимает эффект, когда крышка перестаёт двигаться.";
+"Start angle" = "Угол включения";
+"The effect starts at this angle." = "Эффект начинается ниже этого угла.";
+"Full effect after" = "Полный эффект через";
+"Degrees of further closing to reach full strength." = "Сколько ещё градусов закрытия нужно до максимума.";
+"Look" = "Изображение";
+"Blur" = "Размытие";
+"Blur radius at the far edge." = "Радиус размытия у верхнего края.";
+"Blur spread" = "Равномерность блюра";
+"0 blurs the far edge only, 100 the whole picture." = "0 — блюр сверху, 100 — по всему экрану.";
+"Dimming" = "Затемнение";
+"How dark the far edge goes." = "Насколько затемняется верхний край.";
+"Dimming spread" = "Охват затемнения";
+"Everything above this height goes fully dark." = "Выше этой высоты затемнение достигает максимума.";
+"Perspective" = "Перспектива";
+"Lean back" = "Втягивание";
+"Degrees of lean per degree of closing. 1 holds it still." = "Наклон на каждый градус закрытия. 1 — экран остаётся в пространстве.";
+"0 keeps the sides parallel, 100 converges sharply." = "0 — параллельные стороны, 100 — сильное сужение.";
+"Show angle in menu bar" = "Угол в строке меню";
+"Launch at login" = "Запускать при входе";
+"Reset" = "Сбросить";
+"Quit" = "Завершить";
+"Made by " = "Автор: ";
+"Screen Recording permission is required to show the depth effect." = "Для эффекта нужен доступ bluuur к записи экрана.";
+"Open System Settings" = "Открыть настройки macOS";
+"Could not open System Settings. Open it manually and enable screen recording for bluuur under Privacy & Security." = "Откройте настройки macOS → Конфиденциальность и безопасность → Запись экрана и включите bluuur.";
+"Language" = "Язык";
+"System" = "Системный";
+"Chinese (Simplified)" = "Китайский";
+"Mouse interaction" = "Управление мышью";
+"Flattens the perspective while using the mouse; blur and live picture stay on." = "Выпрямляет экран при работе мышью; блюр и живое изображение остаются.";
+
+"If this angle is beyond the lid opening, closing starts from its last open position." = "Если крышка не доходит до этого угла, эффект начинается от её открытого положения.";

@@ -1,0 +1,43 @@
+Mac Duo
+Copyright 2026 Makito
+
+Originally developed by Makito.
+
+bluuur 2.0.0 is a modified version of Mac Duo 0.1.0-dev.18.1.
+Upstream: https://github.com/sumimakito/Mac-Duo
+Base commit: 2a9fa18bea0e92293bf59227b539fe3de0e91328
+Changes: bluuur branding and bundle identity, Russian localization, a settings
+window available on launch/reopen, and optional mouse-friendly perspective.
+Original GPU renderer, blur, live stream, sensor, and lid animation retained.
+The original author does not endorse this modified version.
+
+Changes in bluuur 2.0.1: hold the visual spring flat until capture is ready,
+reveal after the first submitted render, and ease perspective restoration
+after mouse use. The steady-state effect remains the Mac Duo effect.
+
+Changes in bluuur 2.0.2: a centred Gaussian pyramid fixes blur drifting right;
+the upstream footer is removed from the settings UI. Copyright and licensing
+notices remain in this distribution.
+
+Changes in bluuur 2.0.3: reachable start-angle calibration, exact critically
+damped animation, immediate live-stream startup, delayed screenshot fallback,
+and retry for a missing first picture.
+Further 2.0.3 fixes: recover failed stream enumeration and unexpected stream
+stops, reject self-capture when exclusion is unavailable, apply picture mode
+changes immediately, bound queued GPU frames, and validate HID report length.
+Settings now rise above the effect only while bluuur is active and authorized,
+and return to normal level when another app or a system prompt takes focus.
+
+Changes in bluuur 2.0.4: a persistent dark settings appearance in both the
+window and menu-bar popover, graphite background, blue control accent, and
+more legible explanatory text. The effect and saved settings are unchanged.
+
+Changes in bluuur 2.0.5: near-black settings background and window title bar;
+white control tint replaces the blue accent. Effect behavior is unchanged.
+
+Changes in bluuur 2.0.6: slight settings-window translucency; user-facing
+installer naming and instructions omit the version number. Effect unchanged.
+
+Changes in bluuur 2.0.7: consistent product naming in all permission-message
+translations; download image includes the app and Applications shortcut only.
+License and attribution notices are retained inside the app bundle.
